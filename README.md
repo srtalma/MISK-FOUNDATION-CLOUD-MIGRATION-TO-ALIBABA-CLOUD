@@ -1,2 +1,12 @@
 # MISK-FOUNDATION-CLOUD-MIGRATION-TO-ALIBABA-CLOUD
 MISK FOUNDATION CLOUD MIGRATION TO ALIBABA CLOUD
+in this paper, we discussed many important steps that would help MISK to consider Alibaba Cloud products and solutions to leverage Cloud Computing benefits and migrate their whole resources to Alibaba Cloud.
+We started our paper by illustrating the overview of our cloud solutions that we recommend MISK to follow. We described the services in the diagram component by component and how each service communicates with the other services with a short overview of the services and how it works.
+We discussed the database we are going to deploy which is MySQL and in which region and zone. We explain how to connect it to the ECS instance via a services account. We mention what kind of data MISK stores in their database including students’ pieces of information and meta-data and more.
+We explained our security services to protect our database and how to back up these data and recover it and restore it in no time. For more clarity, we attached a database overview diagram. 
+Then, we discussed the ECS instance that we need. We determine what type of instance and memory meets our requirements. We explain how to backup out instances using snapshots and block storage and how to scale our instances so we don’t waste our resources. We discuss our big data services and attached an ECS’s instants diagram.
+We demonstrate MISK’s networking that includes VPC and VPN. We discussed the failover group that consists of two virtual border routers (VBRs).  And we attached a network overview diagram. 
+We interpreted MISK RAM users and their policies. We explain RAM accounts to the users and the administers .and how to secure them with multi-factor authentication (MFA) device for a Resource Access Management (RAM)
+Finally. We demonstrate our plan of backups and disaster recovery and how to restore our resources and data in no time.
+Nevertheless, as the cloud service models evolve at a fast pace and new solutions appear every day, companies may find it difficult to choose the right option for them and the migration to the cloud may be an intricate and challenging procedure. Considering the SaaS and PaaS models, this document tries to enlighten some misconceptions and to deliver a migration model with distinct phases, which aims to recommend MISK to go on and migrate to Alibaba Cloud for best practice and a brighter future. 
+
